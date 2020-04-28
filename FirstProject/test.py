@@ -62,12 +62,14 @@ x = 10
 # Nu exista x-- !
 while x > 1:
     print("x este ", x)
-    pass    # Block de instructiuni GOL - Nu face nimic!
-    pass    # Este ca si cum rezerv acest spatiul pentru mai tarziu
+    pass  # Block de instructiuni GOL - Nu face nimic!
+    pass  # Este ca si cum rezerv acest spatiul pentru mai tarziu
     x -= 1
+
 
 def funct():
     pass
+
 
 # statement1 if expression1 else (statement2 if expression2 else statement3)
 
@@ -95,30 +97,30 @@ a = 3 if 1 == 1 else 3 if 1 == 5 else 7
 #                 continue
 #             print("Valoarea convertita este: ", floatSign * euro * 4.87, " RON")
 
-str = "abecedar"
-
-print(str[-1])
-print(str[-5:])
-print(str[2::2])
-print(str[::-1])
-
-for x in str:
-    print(x)
-
-for poz, char in enumerate(str):
-    print(poz, char)
-
-for x in range(6):
-    print(x)
-
-for i in range(0, 5, 3):
-    print(i)
-
-for x in range(-1, 6, 2):
-    print(x)
-
-lista = [x for x in range(10)] # Comprehension list
-lista = list(range(10))
-print(lista)
+# str = "abecedar"
+#
+# print(str[-1])
+# print(str[-5:])
+# print(str[2::2])
+# print(str[::-1])
+#
+# for x in str:
+#     print(x)
+#
+# for poz, char in enumerate(str):
+#     print(poz, char)
+#
+# for x in range(6):
+#     print(x)
+#
+# for i in range(0, 5, 3):
+#     print(i)
+#
+# for x in range(-1, 6, 2):
+#     print(x)
+#
+# lista = [x for x in range(10)]  # Comprehension list
+# lista = list(range(10))
+# print(lista)
 
 # Seturi, dictionare, list, tupluri
