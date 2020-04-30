@@ -12,7 +12,7 @@ def is_num_seq(sequence: str, sep: str = "") -> bool:
     index = 0
     dot = False
     first = True
-    result = True
+    result = False
     length = len(sequence)
 
     while index < length:
@@ -23,37 +23,33 @@ def is_num_seq(sequence: str, sep: str = "") -> bool:
             index += 1
             continue
 
+        if sequence[index].isdigit():
+            result = True
+
         if first:
             if sequence[index] in "-+":
                 if index + 1 >= length:
-                    result = False
-                    break
+                    return False
                 elif sequence[index + 1] == '.':
                     if index + 2 >= length or not sequence[index + 2].isdigit():
-                        result = False
-                        break
+                        return False
                 elif not sequence[index + 1].isdigit():
-                    result = False
-                    break
+                    return False
             elif sequence[index] == '.':
                 if index + 1 >= length:
-                    result = False
-                    break
+                    return False
                 else:
                     dot = True
             elif not sequence[index].isdigit():
-                result = False
-                break
+                return False
         else:
             if sequence[index] == '.':
                 if dot:
-                    result = False
-                    break
+                    return False
                 else:
                     dot = True
             elif not sequence[index].isdigit():
-                result = False
-                break
+                return False
 
         first = False
         index += 1

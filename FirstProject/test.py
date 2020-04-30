@@ -57,23 +57,23 @@
 #     ...
 #     sintaxa2
 
-x = 10
-
-# Nu exista x-- !
-while x > 1:
-    print("x este ", x)
-    pass  # Block de instructiuni GOL - Nu face nimic!
-    pass  # Este ca si cum rezerv acest spatiul pentru mai tarziu
-    x -= 1
-
-
-def funct():
-    pass
+# x = 10
+#
+# # Nu exista x-- !
+# while x > 1:
+#     print("x este ", x)
+#     pass  # Block de instructiuni GOL - Nu face nimic!
+#     pass  # Este ca si cum rezerv acest spatiul pentru mai tarziu
+#     x -= 1
+#
+#
+# def funct():
+#     pass
 
 
 # statement1 if expression1 else (statement2 if expression2 else statement3)
 
-a = 3 if 1 == 1 else 3 if 1 == 5 else 7
+# a = 3 if 1 == 1 else 3 if 1 == 5 else 7
 
 # ok = "1"
 #
@@ -124,3 +124,46 @@ a = 3 if 1 == 1 else 3 if 1 == 5 else 7
 # print(lista)
 
 # Seturi, dictionare, list, tupluri
+
+cuvant = 'abcde'
+# print(cuvant[6]) Nu merge, out of bounds
+print(cuvant[6:])  # Cu slicing nu mai da eroare, e silent
+print(cuvant[-1])
+print(cuvant[-2])
+
+for letter in cuvant:
+    print(letter)
+
+print(cuvant.replace('d', 'f'))
+
+print(cuvant)
+
+print(cuvant := cuvant.replace('d', 'f'))
+
+if 'b' in cuvant:
+    print("perfect")
+
+print(cuvant.find('b'))  # -1 daca nu exista !
+
+print(cuvant.find('z'))
+
+print("".join(cuvant.split("c")))
+
+a = None  # Niciun tip de data
+
+# Tupluri:
+# tuples
+tuplu = (1)  # este int !!
+print(type(tuplu))
+
+tuplu = (1,)  # este tuplu pentru ca sunt mai multe
+print(type(tuplu))
+
+tuplu = tuplu + (2, 3, 4) # Se face append la concatenare
+print(tuplu)
+
+print(tuplu[2]) # indexare
+# tuplu[2] = 9 # Sunt IMMUTABLE ! La fel ca Set-urile
+
+# Sa instalam Selenium(Webdriverul + Chromedriver), o sa facem Webscraping!
+# + 1 problema ca tema

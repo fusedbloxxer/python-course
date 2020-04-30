@@ -15,4 +15,4 @@ while True:
             number = int(number)
     break
 
-print("Anul {0} este {1}.".format(number, "bisect" if number % 4 == 0 else "normal"))
+print("Anul {0} este {1}.".format(number, "bisect" if ((number % 4 == 0 and number % 100 != 0) or number % 400 == 0) else "normal"))

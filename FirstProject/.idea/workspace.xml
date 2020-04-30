@@ -20,11 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac9fae25-a744-40ea-99ef-39bd42effc57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/FirstProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FirstProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FifthExercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/FifthExercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstExercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirstExercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FourthExercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/FourthExercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdExercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/ThirdExercise.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
