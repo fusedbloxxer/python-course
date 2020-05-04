@@ -1,4 +1,4 @@
-from Functions import is_num_seq
+from FirstAssignment.Functions import is_num_seq
 
 while True:
     if (number := input("Introduceti un an: ")).isdigit():

@@ -22,12 +22,13 @@
     <list default="true" id="ac9fae25-a744-40ea-99ef-39bd42effc57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FifthExercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/FifthExercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstExercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirstExercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FourthExercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/FourthExercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThirdExercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/ThirdExercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FifthExercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirstAssignment/FifthExercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstExercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirstAssignment/FirstExercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FourthExercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirstAssignment/FourthExercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirstAssignment/Functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondExercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirstAssignment/SecondExercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdExercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirstAssignment/ThirdExercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/workspace.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
       <recent name="D:\Git\python-course\FirstProject\FirstAssignment" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.validator">
     <configuration name="Assignment1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FirstProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,8 +85,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="validator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FirstProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SecondAssignment" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SecondAssignment/validator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.validator" />
         <item itemvalue="Python.Assignment1" />
       </list>
     </recent_temporary>
@@ -116,47 +139,47 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587656271485">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588620155339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587656271485" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587060277055" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588620155339" />
     <state x="657" y="466" key="FileChooserDialogImpl" timestamp="1587060366626">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="657" y="466" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587060366626" />
-    <state width="914" height="347" key="GridCell.Tab.0.bottom" timestamp="1588091828526">
+    <state width="1130" height="347" key="GridCell.Tab.0.bottom" timestamp="1588624312108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588091828526" />
-    <state width="914" height="347" key="GridCell.Tab.0.center" timestamp="1588091828525">
+    <state width="1130" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588624312108" />
+    <state width="1130" height="347" key="GridCell.Tab.0.center" timestamp="1588624312107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588091828525" />
-    <state width="914" height="347" key="GridCell.Tab.0.left" timestamp="1588091828525">
+    <state width="1130" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588624312107" />
+    <state width="1130" height="347" key="GridCell.Tab.0.left" timestamp="1588624312107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588091828525" />
-    <state width="914" height="347" key="GridCell.Tab.0.right" timestamp="1588091828526">
+    <state width="1130" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588624312107" />
+    <state width="1130" height="347" key="GridCell.Tab.0.right" timestamp="1588624312108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588091828526" />
-    <state width="914" height="347" key="GridCell.Tab.1.bottom" timestamp="1588091828526">
+    <state width="1130" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588624312108" />
+    <state width="1130" height="347" key="GridCell.Tab.1.bottom" timestamp="1588624312109">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588091828526" />
-    <state width="914" height="347" key="GridCell.Tab.1.center" timestamp="1588091828526">
+    <state width="1130" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588624312109" />
+    <state width="1130" height="347" key="GridCell.Tab.1.center" timestamp="1588624312108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588091828526" />
-    <state width="914" height="347" key="GridCell.Tab.1.left" timestamp="1588091828526">
+    <state width="1130" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588624312108" />
+    <state width="1130" height="347" key="GridCell.Tab.1.left" timestamp="1588624312108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588091828526" />
-    <state width="914" height="347" key="GridCell.Tab.1.right" timestamp="1588091828526">
+    <state width="1130" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588624312108" />
+    <state width="1130" height="347" key="GridCell.Tab.1.right" timestamp="1588624312109">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588091828526" />
+    <state width="1130" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588624312109" />
     <state x="210" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1588084018038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
