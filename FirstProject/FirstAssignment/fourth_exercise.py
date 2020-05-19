@@ -1,5 +1,5 @@
 # Fourth Exercise
-from FirstAssignment.Functions import to_float
+from functions import to_float
 
 while (number := to_float(input("Introduceti un numar: "))) is None:
     print("Nu ati introdus un numar!")

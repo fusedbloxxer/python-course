@@ -1,4 +1,4 @@
-from FirstAssignment.Functions import is_num_seq
+from functions import is_num_seq
 
 inputName = input("Introduceti numele: ")
 

@@ -1,4 +1,4 @@
-from FirstAssignment.Functions import to_float
+from functions import to_float
 
 while True:
 
