@@ -7,13 +7,13 @@ def create_request_url(day: int) -> str:
     return f'https://www.mai.gov.ro/informare-covid-19-grupul-de-comunicare-strategica-{day}-aprilie-2020-ora-13-00/'
 
 
-def fetch_data(date: int, extract_header: bool = False):
+def fetch_data(date: int, extract_header: bool = False, include_empty_data: bool = False):
     request = requests.get(create_request_url(date))
     response = BeautifulSoup(request.text, features='html.parser')
     article = response.find_all('div', attrs={'class': 'inside-article'})
 
     if len(tables := article[0].find_all('table')) == 0:
-        return None
+        return {f'{date}-aprilie': []} if include_empty_data else None
 
     rows = tables[0].find_all('tr')
 
@@ -57,7 +57,7 @@ def format_data(data: dict) -> None:
         extracted_data[headers[1]].append('TOTAL')
 
     for i in range(2, len(headers)):
-        if len(extracted_data[headers[i]]) != max_lines:
+        while len(extracted_data[headers[i]]) != max_lines:
             extracted_data[headers[i]].insert(len(extracted_data[headers[i]]) - 1, 0)
 
 
@@ -137,16 +137,17 @@ def save_to_html(data: dict) -> None:
     file.close()
 
 
+include_blank_pages = True
 start_date = 3
 end_date = 25
 
-extracted_data = fetch_data(start_date, True)
+extracted_data = fetch_data(date=start_date, extract_header=True, include_empty_data=include_blank_pages)
 print(extracted_data)
 
 for i in range(start_date + 1, end_date):
     if extracted_data is None:
-        extracted_data = fetch_data(i, True)
-    elif (temp := fetch_data(i)) is not None:
+        extracted_data = fetch_data(date=i, extract_header=True, include_empty_data=include_blank_pages)
+    elif (temp := fetch_data(date=i, extract_header=False, include_empty_data=include_blank_pages)) is not None:
         extracted_data.update(temp)
         print(temp)
 
