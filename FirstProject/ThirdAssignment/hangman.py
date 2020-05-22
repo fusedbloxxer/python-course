@@ -57,7 +57,7 @@ def fetch_unique_words(filename: str) -> list:
 
 def draw_hidden_word(word: str, guesses: dict) -> None:
     for character in word:
-        print(character if guesses.get(character, False) is True else '_', end='')
+        print(character if guesses.get(character, False) is True else '_', end=' ')
     print()
 
 
