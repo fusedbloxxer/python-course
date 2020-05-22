@@ -47,7 +47,7 @@
 #             td = ''
 #
 #             for th_index in td_index.find_all('th'):
-#                 header.append(th_index.get_text())
+#                 .append(th_index.get_text())
 #                 header_html += f'<th>{th_index.get_text()}</th>'
 #
 #             thead = f'<thead><tr>{header_html}</tr></thead>'
@@ -71,7 +71,7 @@
 #
 # # html + files
 # print(table)
-# file = open('C:/Users/AnonymousClass/WorkFolder/GIT/python-course/FirstProject/fileGoogle.html', 'w')
+# file = open('C:/Users/AnonymousClass/WorkFolder/GIT/python-course/PythonCourse/fileGoogle.html', 'w')
 # file.writelines(table)
 # file.close()
 
