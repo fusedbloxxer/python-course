@@ -138,7 +138,7 @@ def save_to_html(data: dict) -> None:
     file.close()
 
 
-include_blank_pages = True
+include_blank_pages = False
 start_date = 3
 end_date = 25
 

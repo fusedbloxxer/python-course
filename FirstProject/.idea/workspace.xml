@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="91a5647f-7c15-4506-b239-eeefc27e28eb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../PythonCourse/Assignments/FourthAssignment/COVID_STATS.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonCourse/Assignments/FourthAssignment/COVID_STATS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonCourse/Assignments/FourthAssignment/COVID_STATS.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonCourse/Assignments/FourthAssignment/COVID_STATS.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonCourse/Assignments/FourthAssignment/covidcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonCourse/Assignments/FourthAssignment/covidcases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonCourse/CourseMaterial/workspace.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonCourse/CourseMaterial/workspace.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1cRBNKySb1cJBTfrQD8CGnxSf4I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AnonymousClass\WorkFolder\GIT\python-course\PythonCourse\CourseMaterial\FifthCourse" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91a5647f-7c15-4506-b239-eeefc27e28eb" name="Default Changelist" comment="" />
+      <created>1590481484204</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590481484204</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="98" y="180" key="SettingsEditor" timestamp="1590481998654">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="98" y="180" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590481998654" />
+  </component>
+</project>
