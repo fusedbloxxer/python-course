@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91a5647f-7c15-4506-b239-eeefc27e28eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../PythonCourse/Assignments/FourthAssignment/COVID_STATS.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonCourse/Assignments/FourthAssignment/COVID_STATS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonCourse/Assignments/FourthAssignment/COVID_STATS.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonCourse/Assignments/FourthAssignment/COVID_STATS.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonCourse/Assignments/FourthAssignment/covidcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonCourse/Assignments/FourthAssignment/covidcases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonCourse/CourseMaterial/workspace.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonCourse/CourseMaterial/workspace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/AnonymousClass.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonCourse/Assignments/SixthAssignment/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonCourse/Assignments/SixthAssignment/second.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
