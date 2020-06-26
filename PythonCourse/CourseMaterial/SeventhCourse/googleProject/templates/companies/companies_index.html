@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+<a href="{% url 'companies:create_companies' %}">Add New Company</a>
+<table>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Website</th>
+        <th>Location</th>
+        <th>Type</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for item in all_companies %}
+    <tr>
+        <td>{{ forloop.counter }}</td>
+        <td>{{ item.name }}</td>
+        <td>{{ item.website }}</td>
+        <td>{{ item.location.city }} - {{ item.location.country }}</td>
+        <td>{{ item.type }}</td>
+        <td><a href="{% url 'companies:update_companies' item.id %}>Edit</a></td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

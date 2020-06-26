@@ -12,3 +12,4 @@ class Location(models.Model):
 
 # python manage.py makemigrations
 # python manage.py migrate
+# python manage.py startapp companies
